@@ -8,4 +8,4 @@ print_pyramid(rows)
 print("piramid line: {}".format(nPiramidLine))
 
 
-exit(True)
+exit(False)
