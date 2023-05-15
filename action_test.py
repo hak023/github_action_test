@@ -7,4 +7,4 @@ rows = int(nPiramidLine)
 print_pyramid(rows)
 print("piramid line : %d", nPiramidLine)
 
-assert(True)
+exit(True)
