@@ -22,7 +22,6 @@ jobs:
       run: |
         # conda env update --file environment.yml --name base
         echo "dependencies install skip."
-    - name: Test with pytest
+    - name: Test main code
       run: |
-        conda install pytest
-        pytest action_test.py
+        python action_test.py

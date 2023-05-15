@@ -6,3 +6,5 @@ def print_pyramid(rows):
 rows = int(nPiramidLine)
 print_pyramid(rows)
 print("piramid line : %d", nPiramidLine)
+
+assert(True)
